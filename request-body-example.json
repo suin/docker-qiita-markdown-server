@@ -1,0 +1,9 @@
+{
+  "text": "hello :smile: @suin @foo @bar <script>alert(1)</script>\n\n```rb\nputs 1\n```",
+  "options": {
+    "asset_root": "https://assets-cdn.github.com/images/icons",
+    "base_url": "https://twitter.com",
+    "allowed_usernames": ["suin", "foo"],
+    "script": true
+  }
+}

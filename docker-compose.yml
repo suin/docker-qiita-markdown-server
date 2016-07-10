@@ -1,0 +1,7 @@
+qms:
+  image: suin/qiita-markdown-server
+  environment:
+    VIRTUAL_HOST: qms.docker # for dinghy
+    RACK_ENV: development
+  volumes:
+    - .:/app
