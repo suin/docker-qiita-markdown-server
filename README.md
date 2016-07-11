@@ -72,7 +72,7 @@ X-Content-Type-Options: nosniff
 Qiita Markdown Server is dockerized so you can pull docker image from Docker Hub and run it.
 
 ```console
-docker run -it --rm -p 8080:8080 suin/qiita-markdown-server
+docker run -it --rm -p 80:80 suin/qiita-markdown-server
 ```
 
 This container is also available on Docker Compose.
@@ -81,6 +81,5 @@ This container is also available on Docker Compose.
 qms:
   image: suin/qiita-markdown-server
   ports:
-    - 8080:8080
+    - 80:80
 ```
-

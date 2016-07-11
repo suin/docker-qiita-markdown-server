@@ -14,6 +14,6 @@ RUN set -x \
   && bundle install -j$NPROC \
   && apk del .build-deps
 ENV RACK_ENV production
-ENV PORT 8080
-EXPOSE 8080
+ENV PORT 80
+EXPOSE 80
 CMD ./run.sh
